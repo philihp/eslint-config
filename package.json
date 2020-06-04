@@ -1,0 +1,20 @@
+{
+  "name": "@philihp/eslint-config",
+  "version": "0.0.0",
+  "description": "Personally Preferred ESLint Rules",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philihp/eslint-config-philihp.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "Philihp Busby <philihp@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/philihp/eslint-config-philihp/issues"
+  },
+  "homepage": "https://github.com/philihp/eslint-config-philihp#readme"
+}
