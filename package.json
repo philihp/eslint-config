@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/philihp/eslint-config-philihp.git"
+    "url": "git+https://github.com/philihp/eslint-config.git"
   },
   "keywords": [
     "eslint"
@@ -16,9 +16,9 @@
   "author": "Philihp Busby <philihp@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/philihp/eslint-config-philihp/issues"
+    "url": "https://github.com/philihp/eslint-config/issues"
   },
-  "homepage": "https://github.com/philihp/eslint-config-philihp#readme",
+  "homepage": "https://github.com/philihp/eslint-config#readme",
   "devDependencies": {
     "babel-eslint": "10.1.0",
     "eslint": "6.8.0",
