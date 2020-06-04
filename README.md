@@ -1,1 +1,9 @@
-You should make your own.
+
+## Installation
+
+```json
+{
+  "extends": ["@philihp"]
+}
+```
+
