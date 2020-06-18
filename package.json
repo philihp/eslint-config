@@ -65,7 +65,7 @@
       "plugin:react/recommended",
       "plugin:prettier/recommended",
       "plugin:json/recommended",
-      "plugin:jest/recommended",
+      "plugin:jest/all",
       "prettier/react"
     ],
     "plugins": ["jest"],
