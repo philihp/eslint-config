@@ -4,7 +4,7 @@ module.exports = {
     'eslint:recommended',
     'plugin:react/recommended',
     'plugin:json/recommended',
-    'plugin:unicorn/all',
+    'plugin:unicorn/recommended',
     'plugin:jest/all',
     // trust in jordan on everything, except he's wrong about semi
     'airbnb',
