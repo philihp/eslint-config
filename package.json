@@ -33,6 +33,7 @@
     "eslint-plugin-prettier": "3.1.4",
     "eslint-plugin-react": "7.20.0",
     "eslint-plugin-react-hooks": "4.0.4",
+    "eslint-plugin-unicorn": "20.1.0",
     "prettier": "2.0.5",
     "react": "16.13.1"
   },
@@ -62,8 +63,9 @@
       "airbnb/hooks",
       "eslint:recommended",
       "plugin:react/recommended",
-      "plugin:prettier/recommended",
-      "plugin:json/recommended"
+      "plugin:unicorn/recommended",
+      "plugin:json/recommended",
+      "plugin:prettier/recommended"
     ],
     "settings": {
       "react": {
