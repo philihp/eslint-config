@@ -6,6 +6,8 @@ module.exports = {
     'eslint:recommended',
     'plugin:react/recommended',
     'plugin:prettier/recommended',
+    'plugin:json/recommended',
+    'prettier/react',
   ],
   rules: {
     'prettier/prettier': 'error',
