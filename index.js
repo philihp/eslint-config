@@ -19,7 +19,7 @@ module.exports = {
     'import/no-extraneous-dependencies': [
       'error',
       {
-        devDependencies: ['setupTests.js', '**/__tests__/*.test.js'],
+        devDependencies: ['setup-tests.js', '**/__tests__/*.test.js'],
       },
     ],
   },
