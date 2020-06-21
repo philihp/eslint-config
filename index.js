@@ -23,5 +23,6 @@ module.exports = {
         devDependencies: ['setup-tests.js', '**/__tests__/*.test.js'],
       },
     ],
+    'unicorn/no-reduce': 'off',
   },
 }
