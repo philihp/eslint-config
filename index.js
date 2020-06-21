@@ -5,7 +5,8 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:json/recommended',
     'plugin:unicorn/recommended',
-    'plugin:jest/all',
+    'plugin:jest/recommended',
+    'plugin:jest/style',
     // trust in jordan on everything, except he's wrong about semi
     'airbnb',
     'airbnb/hooks',
