@@ -23,8 +23,9 @@ module.exports = {
         devDependencies: ['setup-tests.js', '**/__tests__/*.test.js'],
       },
     ],
-    'unicorn/no-reduce': 'off',
+    'unicorn/number-literal-case': 'off',
     'unicorn/no-fn-reference-in-iterator': 'off',
+    'unicorn/no-reduce': 'off',
     'unicorn/no-zero-fractions': 'off',
     'no-unused-vars': [
       'error',
