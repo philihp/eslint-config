@@ -24,5 +24,7 @@ module.exports = {
       },
     ],
     'unicorn/no-reduce': 'off',
+    'unicorn/no-fn-reference-in-iterator': 'off',
+    'unicorn/no-zero-fractions': 'off',
   },
 }
