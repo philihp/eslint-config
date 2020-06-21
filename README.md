@@ -23,3 +23,4 @@ The following packages use this config, and can be seen as examples of how to us
 - https://github.com/philihp/score/
 - https://github.com/philihp/nanbox/
 - https://github.com/theunhatched/unhatched/
+- https://github.com/philihp/openskill.js
