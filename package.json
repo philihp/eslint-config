@@ -25,7 +25,7 @@
   "homepage": "https://github.com/philihp/eslint-config#readme",
   "dependencies": {
     "babel-eslint": "10.1.0",
-    "babel-jest": "26.0.1",
+    "babel-jest": "26.1.0",
     "eslint": "7.3.1",
     "eslint-config-airbnb": "18.2.0",
     "eslint-config-prettier": "6.11.0",
@@ -37,7 +37,7 @@
     "eslint-plugin-react": "7.20.0",
     "eslint-plugin-react-hooks": "4.0.4",
     "eslint-plugin-unicorn": "20.1.0",
-    "jest": "26.0.1",
+    "jest": "26.1.0",
     "prettier": "2.0.5",
     "react": "16.13.1"
   },
