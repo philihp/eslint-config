@@ -1,3 +1,5 @@
+const unicorn = require('./unicorn')
+
 module.exports = {
   parser: 'babel-eslint',
   extends: [
@@ -15,6 +17,7 @@ module.exports = {
     'plugin:prettier/recommended',
   ],
   rules: {
+    ...unicorn,
     'prettier/prettier': 'error',
     'react/jsx-filename-extension': 'off',
     'import/no-extraneous-dependencies': [
@@ -23,9 +26,6 @@ module.exports = {
         devDependencies: ['setup-tests.js', '**/__tests__/*.test.js'],
       },
     ],
-    'unicorn/number-literal-case': 'off',
-    'unicorn/no-fn-reference-in-iterator': 'off',
-    'unicorn/no-reduce': 'off',
     'unicorn/no-zero-fractions': 'off',
     'no-unused-vars': [
       'error',
