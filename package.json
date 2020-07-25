@@ -4,7 +4,8 @@
   "description": "Personally Preferred ESLint Rules",
   "main": "index.js",
   "files": [
-    "index.js"
+    "index.js",
+    "unicorn.js"
   ],
   "scripts": {
     "lint": "eslint . --ext js,jsx,json",
