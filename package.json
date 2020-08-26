@@ -39,7 +39,7 @@
     "eslint-plugin-react-hooks": "4.1.0",
     "eslint-plugin-unicorn": "21.0.0",
     "jest": "26.4.2",
-    "prettier": "2.1.0",
+    "prettier": "2.1.1",
     "react": "16.13.1"
   },
   "devDependencies": {
