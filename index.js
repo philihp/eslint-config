@@ -1,12 +1,9 @@
-const unicorn = require('./unicorn')
-
 module.exports = {
   parser: 'babel-eslint',
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
     'plugin:json/recommended',
-    'plugin:unicorn/recommended',
     'plugin:jest/recommended',
     'plugin:jest/style',
     // trust in jordan on everything, except he's wrong about semi
@@ -17,7 +14,6 @@ module.exports = {
     'plugin:prettier/recommended',
   ],
   rules: {
-    ...unicorn,
     'prettier/prettier': 'error',
     'react/jsx-filename-extension': 'off',
     'import/no-extraneous-dependencies': [
@@ -26,7 +22,6 @@ module.exports = {
         devDependencies: ['setup-tests.js', '**/__tests__/*.test.js'],
       },
     ],
-    'unicorn/no-zero-fractions': 'off',
     'no-unused-vars': [
       'error',
       {
