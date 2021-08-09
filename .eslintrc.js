@@ -6,6 +6,9 @@ const internalConfig = {
       version: 'detect',
     },
   },
+  parserOptions: {
+    requireConfigFile: false,
+  },
 }
 
 module.exports = {

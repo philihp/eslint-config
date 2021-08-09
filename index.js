@@ -1,5 +1,5 @@
 module.exports = {
-  parser: 'babel-eslint',
+  parser: '@babel/eslint-parser',
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
@@ -10,7 +10,6 @@ module.exports = {
     'airbnb',
     'airbnb/hooks',
     // always put prettier last to avoid thrashing conflicts
-    'prettier/react',
     'plugin:prettier/recommended',
   ],
   rules: {
