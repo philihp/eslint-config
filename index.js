@@ -10,7 +10,6 @@ module.exports = {
     'airbnb',
     'airbnb/hooks',
     // always put prettier last to avoid thrashing conflicts
-    'prettier/react',
     'plugin:prettier/recommended',
   ],
   rules: {
