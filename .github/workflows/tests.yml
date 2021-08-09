@@ -10,6 +10,7 @@ jobs:
         node-version:
           - 12.x # maintainence ends 2022-04-30
           - 14.x # maintainence ends 2023-04-30
+          - 16.x # maintainence ends 2024-04-30
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
