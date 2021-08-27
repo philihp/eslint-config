@@ -1,3 +1,5 @@
+[![Dependencies](https://img.shields.io/librariesio/github/philihp/eslint-config)](https://libraries.io/github/philihp/eslint-config)
+
 ## Installation
 
 Includes peer dependencies and sets up everything. All you need to do is have a package.json that looks like
