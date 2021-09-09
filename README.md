@@ -1,4 +1,5 @@
 [![Dependencies](https://status.david-dm.org/gh/philihp/eslint-config.svg)](https://david-dm.org/philihp/eslint-config)
+[![devDependencies](https://status.david-dm.org/gh/philihp/eslint-config.svg?type=dev)](https://david-dm.org/philihp/eslint-config?type=dev)
 
 ## Installation
 
