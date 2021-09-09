@@ -1,4 +1,4 @@
-[![Dependencies](https://img.shields.io/librariesio/github/philihp/eslint-config)](https://libraries.io/github/philihp/eslint-config)
+[![Dependencies](https://status.david-dm.org/gh/philihp/eslint-config.svg)](https://david-dm.org/philihp/eslint-config)
 
 ## Installation
 
