@@ -42,7 +42,7 @@
     "react": "17.0.2"
   },
   "devDependencies": {
-    "husky": "7.0.2",
+    "husky": "7.0.4",
     "lint-staged": "11.2.3"
   },
   "prettier": {
