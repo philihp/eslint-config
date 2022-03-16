@@ -1,5 +1,6 @@
 [![Version](https://img.shields.io/npm/v/@philihp/eslint-config)](https://www.npmjs.com/package/@philihp/eslint-config)
 [![Requirements Status](https://requires.io/github/philihp/eslint-config/requirements.svg?branch=main)](https://requires.io/github/philihp/eslint-config/requirements/?branch=main)
+[![tests](https://github.com/philihp/eslint-config/actions/workflows/tests.yml/badge.svg)](https://github.com/philihp/eslint-config/actions/workflows/tests.yml)
 ![Downloads](https://img.shields.io/npm/dt/@philihp/eslint-config)
 ![License](https://img.shields.io/npm/l/@philihp/eslint-config)
 
