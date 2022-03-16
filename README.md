@@ -1,5 +1,7 @@
-[![Dependencies](https://status.david-dm.org/gh/philihp/eslint-config.svg)](https://david-dm.org/philihp/eslint-config)
-[![devDependencies](https://status.david-dm.org/gh/philihp/eslint-config.svg?type=dev)](https://david-dm.org/philihp/eslint-config?type=dev)
+[![Version](https://img.shields.io/npm/v/@philihp/eslint-config)](https://www.npmjs.com/package/@philihp/eslint-config)
+[![Requirements Status](https://requires.io/github/philihp/eslint-config/requirements.svg?branch=main)](https://requires.io/github/philihp/eslint-config/requirements/?branch=main)
+![Downloads](https://img.shields.io/npm/dt/@philihp/eslint-config)
+![License](https://img.shields.io/npm/l/@philihp/eslint-config)
 
 ## Installation
 
