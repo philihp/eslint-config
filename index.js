@@ -27,5 +27,8 @@ module.exports = {
         argsIgnorePattern: '^_',
       },
     ],
+    'no-shadow': 'off', // this can result in cleaner code, and is mitigated by decent testing
+    'import/prefer-default-export': 'off', // https://stackoverflow.com/a/68665805/643928
+    'import/no-default-export': 'warn', // https://stackoverflow.com/a/68665805/643928
   },
 }
