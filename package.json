@@ -1,6 +1,6 @@
 {
   "name": "@philihp/eslint-config",
-  "version": "5.1.2",
+  "version": "5.1.3",
   "description": "Personally Preferred ESLint Rules",
   "main": "index.js",
   "files": [
