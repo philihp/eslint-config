@@ -14,13 +14,23 @@ module.exports = {
   ],
   rules: {
     'prettier/prettier': 'error',
+    'react/function-component-definition': [
+      // these are prettier
+      'warn',
+      {
+        namedComponents: 'arrow-function',
+        unnamedComponents: 'arrow-function',
+      },
+    ],
     'react/jsx-filename-extension': 'off',
+    'import/no-default-export': 'off', // things like next.js need this for components, but otherwise it would be a warn
     'import/no-extraneous-dependencies': [
       'error',
       {
         devDependencies: ['setup-tests.js', '**/__tests__/*.test.js'],
       },
     ],
+    'import/prefer-default-export': 'off', // https://stackoverflow.com/a/68665805/643928
     'no-unused-vars': [
       'error',
       {
@@ -28,7 +38,5 @@ module.exports = {
       },
     ],
     'no-shadow': 'off', // this can result in cleaner code, and is mitigated by decent testing
-    'import/prefer-default-export': 'off', // https://stackoverflow.com/a/68665805/643928
-    'import/no-default-export': 'warn', // https://stackoverflow.com/a/68665805/643928
   },
 }
