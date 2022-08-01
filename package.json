@@ -26,6 +26,7 @@
   "homepage": "https://github.com/philihp/eslint-config#readme",
   "dependencies": {},
   "devDependencies": {
+    "@babel/eslint-parser": "7.18.2",
     "eslint": "8.19.0",
     "eslint-config-airbnb": "19.0.4",
     "eslint-config-prettier": "8.5.0",
