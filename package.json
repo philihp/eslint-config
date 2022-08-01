@@ -26,6 +26,7 @@
   "homepage": "https://github.com/philihp/eslint-config#readme",
   "devDependencies": {
     "@babel/eslint-parser": "7.18.9",
+    "@philihp/prettier-config": "1.0.0",
     "eslint": "8.21.0",
     "eslint-config-airbnb": "19.0.4",
     "eslint-config-prettier": "8.5.0",
@@ -41,11 +42,7 @@
     "lint-staged": "13.0.3",
     "prettier": "2.7.1"
   },
-  "prettier": {
-    "singleQuote": true,
-    "semi": false,
-    "trailingComma": "es5"
-  },
+  "prettier": "@philihp/prettier-config",
   "lint-staged": {
     "**/*.{js,jsx,json}": [
       "eslint --fix"
