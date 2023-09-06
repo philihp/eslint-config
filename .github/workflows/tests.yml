@@ -14,11 +14,13 @@ jobs:
           - 11.x # deprecated
           - 12.x # deprecated
           - 13.x # deprecated
-          - 14.x # maintenance ends 2023-04-30
+          - 14.x # deprecated
           - 15.x # deprecated
           - 16.x # maintenance ends 2024-04-30
           - 17.x # deprecated
           - 18.x # maintenance ends 2025-04-30
+          - 19.x # deprecated
+          - 20.x # maintenance ends 2026-04-30
     steps:
       - uses: actions/setup-node@v3
       - uses: actions/checkout@v3
