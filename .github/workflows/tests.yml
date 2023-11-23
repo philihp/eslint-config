@@ -22,7 +22,7 @@ jobs:
           - 19.x # deprecated
           - 20.x # maintenance ends 2026-04-30
     steps:
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
       - uses: actions/checkout@v3
         with:
           node-version: ${{ matrix.node-version }}
