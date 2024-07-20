@@ -23,6 +23,7 @@ module.exports = {
     ],
     'react/jsx-filename-extension': 'off',
     'import/no-default-export': 'off', // things like next.js need this for components, but otherwise it would be a warn
+    // especially because of this: https://github.com/philihp/openskill.js/issues/627
     'import/extensions': [
       // typescript
       'error',
