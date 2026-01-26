@@ -34,7 +34,7 @@
     "eslint-plugin-jsx-a11y": "6.10.2",
     "eslint-plugin-prettier": "5.5.5",
     "eslint-plugin-react": "7.37.5",
-    "eslint-plugin-react-hooks": "4.6.2"
+    "eslint-plugin-react-hooks": "7.0.1"
   },
   "devDependencies": {
     "@philihp/prettier-config": "1.0.0",
@@ -42,7 +42,7 @@
     "jest": "30.2.0",
     "lint-staged": "16.2.7",
     "prettier": "3.8.1",
-    "react": "18.3.1"
+    "react": "19.2.4"
   },
   "prettier": "@philihp/prettier-config",
   "lint-staged": {
