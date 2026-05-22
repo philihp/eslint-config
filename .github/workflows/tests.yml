@@ -10,24 +10,14 @@ jobs:
     strategy:
       matrix:
         node-version:
-          - 10.x # deprecated
-          - 11.x # deprecated
-          - 12.x # deprecated
-          - 13.x # deprecated
-          - 14.x # deprecated
-          - 15.x # deprecated
-          - 16.x # maintenance ends 2024-04-30
-          - 17.x # deprecated
-          - 18.x # maintenance ends 2025-04-30
-          - 19.x # deprecated
-          - 20.x # maintenance ends 2026-04-30
+          - 22.x
+          - 24.x
     steps:
-      - uses: actions/setup-node@v4
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
       - run: npm install
-      - run: npm run build --if-present
       - run: npm test
         env:
           CI: true
